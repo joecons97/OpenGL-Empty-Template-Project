@@ -29,7 +29,7 @@ Window* Window::Init(glm::vec2 size, const char* title, GLFWmonitor* monitor)
 	return win;
 }
 
-void Window::StartOpenGL()
+void Window::StartAppLoop()
 {
 	/* Loop until the user closes the window */
     while (!glfwWindowShouldClose(m_pWindow))

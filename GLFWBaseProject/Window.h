@@ -8,7 +8,7 @@ private:
 	GLFWwindow* m_pWindow;
 public:
 	static Window* Init(glm::vec2 size, const char* title, GLFWmonitor* monitor);
-	void StartOpenGL();
+	void StartAppLoop();
 	void Release();
 };
 

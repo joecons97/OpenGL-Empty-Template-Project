@@ -8,7 +8,7 @@ int main(void)
     if (!win)
         return -1;
 
-    win->StartOpenGL();
+    win->StartAppLoop();
 
     win->Release();
 
